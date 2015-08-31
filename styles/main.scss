@@ -2,7 +2,7 @@
 
 body {
 	background-color: #47A3DA;
-	margin: 0 3em;
+	margin: 0 2em;
 }
 
 .text {
@@ -96,8 +96,23 @@ p {
 	}
 }
 
+@media screen and(min-width: 1122px) {
 
+	.bank-1{
+		width: 28%;
+		margin-left: 3em;
+		float: left;
+	}
 
+	.bank-2{
+		width: 28%;
+		margin-left: 3em;
+		float: left;
+	}
 
-
-
+	.bank-3{
+		width: 28%;
+		margin-left: 3em;
+		display: inline-block;
+	}
+}
